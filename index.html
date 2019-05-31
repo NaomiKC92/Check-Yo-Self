@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  </head>
+  <body>
+  	<header>
+  	  <h1>CHECK YO'SELF</h1>
+  	  <input type ="text" id="nav__header--search" class="nav__header--search">
+  	</header>
+  	<nav>
+  	  <form class="nav__form--">
+  	  	<label class="nav__label">Task Title</label>
+  	  	<input type="text" class="nav__input">
+  	  	<label class="nav__label">Task Item</label>
+  	  	<input type="text" class="nav__input">
+  	  	<button id="nav__btn--task-list" class="nav__btn--manage-tasks">Make Task List</button>
+  	  	<button id="nav__btn--clear" class="nav__btn--manage-tasks">Clear All</button>
+  	  </form>
+  	  <section class="nav__bottom">
+  	  	<button id="nav__btn--urgency" class="nav__btn--manage-tasks"></button>
+  	  </section>	
+  	</nav>
+      <section class="main__tasks--display">
+      	<article id="card__whole" class="card__whole">
+      		<header id="card__header--title" class="card__header--title">
+      		  <h2>Task Title</h2>
+      		</header>
+      		<section class="card__main--list">
+      		</section>
+      		<footer class="card__footer">
+      		</footer>	
+      	</article>	
+      </section>
+  </body>	
